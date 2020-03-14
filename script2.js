@@ -7,4 +7,3 @@ li.addEventListener("mouseout",function(){
 	li.classList.toggle="hover";
 	li.innerHTML="<img src=\'logo.png\' height=\'50px\' width=\'100px\'>";
 });
-

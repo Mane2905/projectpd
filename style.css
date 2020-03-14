@@ -1,21 +1,30 @@
 body{
 	background:url(design.jpg) no-repeat center center fixed;
 	background-size: cover;
+	background-attachment: scroll;
 	font-family:andalus;
+	cursor:default;
 }
 #Homepage{
 	text-transform:uppercase;
 	padding:250px 0px 10px 0px;
-	color:white;
+	color:black;
 	font-size: 40px;
 	text-align:center;
 	font-family: simonetta;
 }
 .btn{
-	margin-left: 45%;
 	border-radius: 300px;
 
 }
 span{
 	font-size: 20px;
+}
+#blank{
+	padding:250px 0px 10px 0px;
+	color:white;
+	font-size: 40px;
+	text-align:center;
+	font-family: simonetta;
+
 }

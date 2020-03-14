@@ -1,0 +1,22 @@
+{
+  "name": "mountains",
+  "version": "1.0.0",
+  "description": "mountain pics",
+  "main": "script.js",
+  "scripts": {
+    "test": "browserify script.js>bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mane2905/projectpd.git"
+  },
+  "author": "abhay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mane2905/projectpd/issues"
+  },
+  "homepage": "https://github.com/Mane2905/projectpd#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
