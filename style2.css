@@ -1,0 +1,56 @@
+body{
+	font-size:20px;
+}
+li{
+	display:inline;
+	margin:0px;
+}
+li span{
+	float:right;
+	font-size:20px;
+	margin:10px;
+	margin-right:20px;
+}
+
+body{
+	background-color: #F8F9F9;
+}
+#header{
+	border-top:1px solid 	#808080;
+	clear:both;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:#C0C0C0;
+}
+p{
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size:200%;
+	margin:5% 10% 5% 10%;
+}
+
+#images {
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+	grid-column-gap:30px;
+	align-items: center;
+	padding:0% 15% 15% 15%;
+	
+}
+img{
+	cursor: pointer;
+}
+figcaption{
+	text-align:center;
+}
+img:hover{
+	opacity:0.4;
+}
+.hover{
+	background-image: url("logo.png");
+	opacity:0.4;
+}
